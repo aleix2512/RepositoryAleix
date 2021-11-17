@@ -4,6 +4,7 @@ public class Ex2 {
     public static void main(String[] args) {
         Scanner teclat = new Scanner (System.in);
         System.out.println("Introdueix un nombre");
+        System.out.println("Esteban Arquillo");
         int cont = teclat.nextInt();
         int fact = 1;
         int i = 1;
