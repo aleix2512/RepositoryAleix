@@ -9,3 +9,4 @@ while(cont < x) {
     else
     console.log("El numero es imparell")
 }
+

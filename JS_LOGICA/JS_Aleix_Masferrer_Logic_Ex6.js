@@ -20,3 +20,4 @@ if(n3 >= n1 && n3 >= n2) {
     else
     console.log(n3, n2, n1);
 }
+

@@ -6,3 +6,4 @@ if(num % 3 == 0) {
 if(num % 7 == 0) {
     console.log("El numero " + num + " es multiple de 7");
 }
+
