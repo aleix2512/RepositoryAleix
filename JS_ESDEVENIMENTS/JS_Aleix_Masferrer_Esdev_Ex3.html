@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id = "tecla">
+
+    <script type="text/javascript">
+    
+    var Ex2 = document.getElementById("tecla");
+
+    let v1 = ' ';
+
+    document.onkeydown = function(e) {
+        v1 = v1 + e.key;
+        document.getElementById("tecla").innerHTML=v1;
+    }
+
+    document.onkeyup=function() {
+        document.getElementById("tecla").innerHTML= " "
+    }
+
+    </script>
+
+</body>
+</html>

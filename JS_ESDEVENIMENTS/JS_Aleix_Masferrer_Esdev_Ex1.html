@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="cos">
+
+    <h1> Exercici 1 </h1>
+
+    <script type="text/javascript">
+
+        var cos = document.getElementById("cos")
+        cos.addEventListener('mousedown', holaMondwn);
+        cos.addEventListener('mouseup', holaMonup);
+
+        document.body.style.backgroundColor = 'green';
+        function holaMondwn() { 
+            document.body.style.backgroundColor = 'blue';
+        }
+        function holaMonup() { 
+            document.body.style.backgroundColor = 'orange';
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Ex4 </title>
+    <style type="text/css">
+        #acomulador {
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body style="text-align: center; background-color: orange;">
+
+    <button id="click"> Click </button>
+    <button id="reset"> Reset </button>
+    <div id="acomulador"></div>
+
+    <script type="text/javascript">
+
+        var boton_click = document.getElementById("click");
+        var boton_reset = document.getElementById("reset");
+        var element = document.getElementById("acomulador");
+        var acomulador = 0;
+        
+        boton_click.onclick = function () {
+            acomulador++;
+            element.textContent = acomulador;
+        }
+        boton_reset.onclick= function() {
+            acomulador = 0;
+        }
+
+    </script>
+</body>
+</html>
