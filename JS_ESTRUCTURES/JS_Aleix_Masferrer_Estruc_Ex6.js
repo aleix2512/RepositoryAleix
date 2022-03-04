@@ -16,4 +16,4 @@ for (let i = 0; i < array.length; i++) {
     contador = 0;
 }
 document.write("Primer array: <br/>" + array + "<br/>")
-document.write("Segon array amb paraules de mes d'una a: <br/>" + array1)
+document.write("Segon array amb paraules de mes d'una a: <br/>" + array1) 
